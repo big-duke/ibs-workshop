@@ -8,7 +8,7 @@ type Post = {
   title: string;
 };
 
-function Demo() {
+function FetchExample1() {
   const [posts, setPosts] = useState<Post[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState();
@@ -59,4 +59,4 @@ function Demo() {
   );
 }
 
-export default Demo;
+export default FetchExample1;
